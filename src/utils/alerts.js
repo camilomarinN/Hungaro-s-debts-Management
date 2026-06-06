@@ -8,4 +8,19 @@ export const showAlert = (title, text, icon = "info") => {
   });
 };
 
+export const showLoading = (text = "Cargando...") => {
+  Swal.fire({
+    title: text,
+    allowOutsideClick: false,
+    allowEscapeKey: false,
+    didOpen: () => {
+      Swal.showLoading();
+    },
+  });
+};
+
+export const closeLoading = () => {
+  Swal.close();
+};
+
 //import { showAlert } from "./utils/alerts.js";

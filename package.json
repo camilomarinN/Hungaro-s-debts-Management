@@ -16,6 +16,7 @@
     "jQuery": "^1.7.4",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "react-router-dom": "^7.13.0",
     "sweetalert2": "^11.22.4",
     "tailwindcss": "^4.1.12"
   },

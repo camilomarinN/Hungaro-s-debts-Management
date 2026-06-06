@@ -1,12 +1,7 @@
-import { useState } from 'react'
 import './App.css'
-import './styles/tailwindConfigs.css';
-import Header from './components/Header';
+import './styles/tailwindConfigs.css'
+import AppRouter from './routes/AppRouter'
+
 export default function App() {
-  const [visible, setVisible] = useState(true);
-  return (
-    <>
-      <Header/>
-    </>
-  )
+  return <AppRouter />
 }
